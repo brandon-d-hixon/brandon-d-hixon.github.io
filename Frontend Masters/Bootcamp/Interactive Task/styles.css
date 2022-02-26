@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  background-color: rgb(177, 172, 172);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+.container {
+  margin: 40px;
+}
+.portfolio-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.portfolio-image img {
+  width: 200px;
+  border-radius: 50%;
+}

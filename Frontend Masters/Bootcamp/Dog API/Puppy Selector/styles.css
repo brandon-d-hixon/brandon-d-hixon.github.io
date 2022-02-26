@@ -1,0 +1,26 @@
+@keyframes spin {
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+#loadingImg {
+  font-size: 50px;
+  text-align: center;
+  animation: 2s spin linear infinite;
+  width: 150px;
+  display: none;
+}
+
+.main-image {
+  display: none;
+}
+
+.show {
+  display: block !important;
+}
+
+#main {
+  width: 400px;
+  height: 400px;
+}

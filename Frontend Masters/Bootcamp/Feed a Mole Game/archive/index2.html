@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>index2</title>
+  </head>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0%;
+    }
+    body {
+      background-color: #c0c86d;
+      display: flex;
+      height: 100vh;
+      width: 100vw;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .background-img {
+      background-image: url(/static/mole-game/background.png);
+      width: 1920px;
+      height: 1080px;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .hole-colum {
+      display: flex;
+      /* border: 2px solid red; */
+      flex-direction: column;
+      width: 25%;
+      justify-content: flex-start;
+      align-items: center;
+    }
+    #colum1,
+    #colum2,
+    #colum3,
+    #colum4 {
+      justify-content: space-evenly;
+    }
+    .hole {
+      width: 267px;
+      height: 267px;
+      background-color: black;
+      border-radius: 50%;
+    }
+  </style>
+  <body>
+    <div class="background-img">
+      <div class="worm"><img src="/static/mole-game/worm.png" alt="" /></div>
+      <div id="colum1" class="hole-colum">
+        <div class="hole"></div>
+        <div class="hole"></div>
+      </div>
+      <div id="colum2" class="hole-colum">
+        <div class="hole"></div>
+        <div class="hole"></div>
+        <div class="hole"></div>
+      </div>
+      <div id="colum3" class="hole-colum">
+        <div class="hole"></div>
+        <div class="hole"></div>
+        <div class="hole"></div>
+      </div>
+      <div id="colum4" class="hole-colum">
+        <div class="hole"></div>
+        <div class="hole"></div>
+      </div>
+    </div>
+  </body>
+</html>
